@@ -1,0 +1,60 @@
+.load{
+    margin-top: 5px; height: 32px;
+    line-height: 16px;
+}
+.load ul{
+    list-style-type: none;
+    /*float: right;*/
+}
+.load ul li{
+    float: right;
+    font-size: 14px;
+    padding-right: 15px;
+}
+
+.nav ul{
+    list-style-type: none;
+    width: 1010px;
+    height: 35px;
+    margin-top: 0;
+    /*margin-top: 2px;*/
+}
+.nav ul li{
+    font-size: 16px;
+    color: darkorange;
+    text-align: center;
+    float: left;
+    width: 95px;
+    height: 35px;
+    margin-top: 2px;
+    border-right: chartreuse solid 1px;
+}
+.nav ul li:last-child{
+    border: white;
+}
+.news ul{
+
+}
+.news ul li{
+    /*list-style: circle;*/
+    list-style-position: inside;
+    font-size: 14px;
+
+    width: 360px;
+    height: 20px;
+    overflow: hidden;
+    text-overflow:ellipsis;    /*超出的部分自动隐藏且用省略号代替；*/
+    white-space:nowrap;
+    /*overflow:hidden 会影响 list-style，即当ul 中的li 的overflow 为hidden的时候， list-style不起作用，不显示前面的点、圈等样式。
+    解决办法：在ul或li内加入样式：list-style-position: inside; 即可。注意适当调节padding位置使之最适合*/
+
+}
+.list02 ul li{
+    list-style-position: inside;
+    font-size: 14px;
+    width: 250px;
+    height: 20px;
+    overflow: hidden;
+    text-overflow:ellipsis;    /*超出的部分自动隐藏且用省略号代替；*/
+    white-space:nowrap;
+}
